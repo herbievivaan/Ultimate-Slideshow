@@ -1,0 +1,17 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+.slideshow {
+  position: relative;
+  max-width: 800px;
+  margin: auto;
+  overflow: hidden;
+}
+.slide {
+  display: none;
+  width: 100%;
+}
+.slide.active {
+  display: block;
+}
